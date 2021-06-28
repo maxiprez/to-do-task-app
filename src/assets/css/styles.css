@@ -1,0 +1,20 @@
+table{
+    font-family: 'Roboto', sans-serif;
+}
+
+.show-label{
+    margin-left: 0.5rem;
+}
+
+.task-creator-container{
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} 
+
+.input-control{
+    width: 20rem;
+    margin-right: 1rem;
+}
