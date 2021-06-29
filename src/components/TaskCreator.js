@@ -30,7 +30,7 @@ export default function TaskCreator(props) {
              {
                 newTaskName === '' ?
                 <div className="form-group">
-                    <button className="btn-primary form-control" onClick={createNewTask} disabled>
+                    <button className="btn btn-primary form-control" onClick={createNewTask} disabled>
                         Add Task
                      </button> 
                 </div>
@@ -38,7 +38,7 @@ export default function TaskCreator(props) {
                     :
 
                 <div className="form-group">
-                    <button className="btn-primary form-control" onClick={createNewTask}>
+                    <button className="btn btn-primary form-control" onClick={createNewTask}>
                         Add Task
                     </button>
                 </div>

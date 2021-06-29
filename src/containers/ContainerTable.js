@@ -21,12 +21,13 @@ export default function ContainerTable() {
       let data = localStorage.getItem('tasks');
       if(data != null){
         setTaskItems(JSON.parse(data));
+        setUserName ('To Do')
       } else{
-        setUserName ('Maxi Example')
+        setUserName ('To Do')
         setTaskItems([
           {name:'Task One example', done: false},
           {name:'Task Two example', done: false},
-          {name:'Task Three example', done: true},
+          {name:'Task Three example (complete)', done: true},
           {name:'Task Four example', done: false},
           {name:'Task Five example', done: false}
                 ])
